@@ -20,7 +20,7 @@ const Sidebar = () => {
             </Link>
             
               <Link to="/about" onClick={()=>setActive("about")}>
-              <li className={`sidebar-menu-item ${active=="abouts"? "active": ""}`}>
+              <li className={`sidebar-menu-item ${active=="about"? "active": ""}`}>
               <i className='fa fa-info-circle'> About</i>
                 </li>
                 </Link>
